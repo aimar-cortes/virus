@@ -1,0 +1,172 @@
+body{
+    background-color: #6d8d76;
+}
+#cartes{
+    position: absolute;
+    margin: 2%;
+    right: 5%;
+    border: 2px solid rgba(14, 14, 14, 0.89);
+    height: 245px;
+    width: 30.5%;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+}
+#taulerJugador{
+    position: absolute;
+    margin: 2%;
+    border: 2px solid rgba(14, 14, 14, 0.89);
+    width: 41%;
+    height: 245px;
+    border-radius: 5px;
+    left:15%;
+    background-color: #aef055;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+
+}
+#imatgeBasura{
+    position: absolute;
+    left: 47.5%;
+    bottom: 45%;
+    height: 10vh;
+    width: 4vw;
+    transition: 500ms;
+}
+#imatgeBasura:hover{
+    transform: scale(1.2);
+}
+#cartesMaquina{
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    border: 2px solid rgba(14, 14, 14, 0.89);
+    height: 245px;
+    width: 30.5%;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+
+}
+#taulerMaquina{
+    position: absolute;
+    top: 2%;
+    border: 2px solid rgba(14, 14, 14, 0.89);
+    width: 41%;
+    height: 245px;
+    border-radius: 5px;
+    right:15%;
+    background-color: #aef055;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+
+}
+#PartJugador1{
+    position: absolute;
+    border: 2px solid rgba(14, 14, 14, 0.89);
+    width: 99%;
+    height: 40%;
+    bottom: 1%;
+    margin: 0.001%;
+    border-radius: 5px;
+    background-color: #b0c65a;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+
+}
+#PartJugador2{
+    position: absolute;
+    border: 2px solid rgba(14, 14, 14, 0.89);
+    width: 99%;
+    height: 40%;
+    top: 1%;
+    margin: 0.1%;
+    background-color: #b0c65a;
+    border-radius: 5px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+}
+#botoRobarCartes{
+    position: absolute;
+    bottom: 45%;
+    right: 20%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    background-color: #ebf74f;
+    transition: 500ms;
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+
+
+}
+#botoRobarCartes:hover{
+    transform: scale(1.2);
+}
+#tornActual{
+    text-align: center;
+    margin: 1px;
+}
+.primeraposicio{
+    width : 6vw;
+    height :17vh;
+    position :absolute;
+    left : 5%;
+    z-index: 2;
+}
+.primerasegonaposicio{
+    width : 6vw;
+    height :23vh;
+    position :absolute;
+    left : 5%;
+    z-index: 1;
+}
+.segonaposicio{
+    width : 6vw;
+    height : 17vh;
+    position : absolute;
+    left : 30%;
+    z-index: 2;
+}
+.segonasegonaposicio{
+    width : 6vw;
+    height : 23vh;
+    position : absolute;
+    left : 30%;
+    z-index: 1;
+}
+.terceraposicio{
+    width : 6vw;
+    height : 17vh;
+    position : absolute;
+    left : 55%;
+    z-index: 2;
+}
+.tercerasegonaposicio{
+    width : 6vw;
+    height : 23vh;
+    position : absolute;
+    left : 55%;
+    z-index: 1;
+}
+.quartaposicio{
+    width : 6vw;
+    height : 17vh;
+    position : absolute;
+    left : 80%;
+    z-index: 2;
+}
+.quartasegonaposicio{
+    width : 6vw;
+    height : 23vh;
+    position : absolute;
+    left : 80%;
+    z-index: 1;
+}
+#caixaTornActual{
+    position: absolute;
+    position: absolute;
+    bottom: 45%;
+    left: 10%;
+    height: 48px;
+    width: 100px;
+    background-color: #aef055;
+    border-radius: 5px;
+}
